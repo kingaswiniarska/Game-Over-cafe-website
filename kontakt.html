@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>GAME OVER</title>
+    <link rel="stylesheet" href="style/kontakt.css"> <!-- podłączenie do css głównego-->
+    <link rel="shortcut icon" href="img/logo.png">  <!--podłączenie do ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- podłączenie cdn aby ikony działały -->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- menu główne -->
+    <nav class="menu">
+      <img class="logo" src="img/logo.png" alt="logo">
+          <a href="index.html">Strona główna</a>
+          <div class="dropdown">
+              <a href="index.html">Menu</a>
+              <ul>
+                  <li><a href="desery.html">Desery</a></li>
+                  <li><a href="napoje.html">Kawa</a></li>
+              </ul>
+          </div>
+          <a href="lokalizacja.html">Lokalizacja</a>
+          <a href="kontakt.html">Kontakt</a>
+      </nav>
+    <br><br><br><br>
+    <!-- koniec menu -->
+
+   <!-- kontakt poczatek-->
+   <main>
+   <div class="container">
+
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Napisz, zadzwoń, bądź przyjdź osobiście :)</h3>
+        <p class="text">
+          Serdecznie zapraszamy do zamówień online i odbiór zamówienia na miejscu!
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <i class="fa-solid fa-map-location-dot" style="color: #000000;"></i><img src="img/location.png" class="icon" alt="" />
+            <p>Rynek 8, 98-200 Sieradz</p>
+          </div>
+          <div class="information">
+            <i class="fa-solid fa-envelope" style="color: #000000;"></i><img src="img/email.png" class="icon" alt="" />
+            <p>Game_over@kawiarnia.com</p>
+          </div>
+          <div class="information">
+            <i class="fa-solid fa-phone-volume" style="color: #000000;"></i><img src="img/phone.png" class="icon" alt="" />
+            <p>123 456 789</p>
+          </div>
+          
+            <p>Godziny otwarcia:</p>
+            <p>Pon-pt 10:00 - 18:00</p>
+            <p>Sobota 10:00 - 14:00</p> 
+        </div>
+      </div>
+
+      <div class="contact-form">
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Kontakt</h3>
+          <div class="input-container"> <input type="text" name="name" class="input" placeholder="Imie i nazwisko"/> </div>
+          <div class="input-container"> <input type="email" name="email" class="input" placeholder="Email"/> </div>
+          <div class="input-container"> <input type="tel" name="phone" class="input" placeholder="Telefon"/> </div>
+
+          <div class="input-container textarea"> <textarea name="message" class="input" placeholder="Wiadomość"></textarea> </div>
+          <input type="submit" value="Wyślij" class="btn"/>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ikony -->
+	<section>
+        <div class="icon" style="font-size: 3.5rem;" >
+            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-bounce" style="color: #000000;"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-bounce" style="color: #000000;"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fa-bounce" style="color: #000000"></i></a>
+        </div>	
+        </section>
+</main>
+        
+    <footer class="stopka">&copy; 2023 Copyright: Game over. Wszelkie prawa zastrzeżone</footer>
+    <script src="app.js"></script>
+</body>
+</html>
